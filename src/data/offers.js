@@ -1,0 +1,80 @@
+export const offers = [
+  {
+    id: 1,
+    title: 'First Order Special Feast',
+    subtitle: 'Flat ₹150 discount for all pizza lovers',
+    code: 'PIZZA150',
+    discount: 150,
+    minOrder: 699,
+    validity: 'Valid till 31 Dec 2026',
+    description: 'Get ₹150 instant discount on any cart value above ₹699. Applicable on all pizzas and combos.',
+    badge: 'Popular',
+    icon: 'bi-stars',
+    gradient: 'linear-gradient(135deg, #d62828 0%, #b7094c 100%)'
+  },
+  {
+    id: 2,
+    title: 'Super Saver Slice',
+    subtitle: 'Save flat ₹100 on everyday hunger',
+    code: 'PIZZA100',
+    discount: 100,
+    minOrder: 499,
+    validity: 'Valid till 31 Dec 2026',
+    description: 'Save flat ₹100 on orders above ₹499. Perfect for personal cravings or lunch with a friend.',
+    badge: 'Trending',
+    icon: 'bi-tag-fill',
+    gradient: 'linear-gradient(135deg, #f77f00 0%, #d62828 100%)'
+  },
+  {
+    id: 3,
+    title: 'Cheesy Delight Deal',
+    subtitle: 'Extra savings on cheese burst and sides',
+    code: 'CHEESE50',
+    discount: 50,
+    minOrder: 399,
+    validity: 'Valid till 31 Dec 2026',
+    description: 'Enjoy ₹50 instant rebate on orders above ₹399. Valid across all veg and non-veg pizzas.',
+    badge: 'Quick Save',
+    icon: 'bi-shield-check',
+    gradient: 'linear-gradient(135deg, #003049 0%, #0d3b66 100%)'
+  },
+  {
+    id: 4,
+    title: 'BOGO Weekend Mega Treat',
+    subtitle: 'Buy 1 Get 1 equivalent discount',
+    code: 'BOGO',
+    discount: 200,
+    minOrder: 799,
+    validity: 'Valid on weekends',
+    description: 'Get ₹200 OFF on medium and large pizza party orders above ₹799.',
+    badge: 'Best Value',
+    icon: 'bi-gift-fill',
+    gradient: 'linear-gradient(135deg, #2a9d8f 0%, #264653 100%)'
+  },
+  {
+    id: 5,
+    title: 'Free Garlic Bread Offer',
+    subtitle: 'Savor buttery garlic bread on us',
+    code: 'FREEBREAD',
+    discount: 120,
+    minOrder: 599,
+    validity: 'Valid till 31 Dec 2026',
+    description: 'Enjoy ₹120 off equivalent to a complimentary portion of Stuffed Garlic Bread with Cheese on orders above ₹599.',
+    badge: 'Freebie',
+    icon: 'bi-bag-check-fill',
+    gradient: 'linear-gradient(135deg, #e76f51 0%, #f4a261 100%)'
+  },
+  {
+    id: 6,
+    title: 'Family Combo Mania',
+    subtitle: 'Party sizes with unmatched price',
+    code: 'COMBOMANIA',
+    discount: 180,
+    minOrder: 899,
+    validity: 'Valid all week',
+    description: 'Flat ₹180 off on family combos and group feasts above ₹899.',
+    badge: 'Party Pack',
+    icon: 'bi-people-fill',
+    gradient: 'linear-gradient(135deg, #6a040f 0%, #370617 100%)'
+  }
+];
